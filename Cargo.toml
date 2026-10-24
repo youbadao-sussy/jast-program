@@ -1,0 +1,15 @@
+[package]
+name = "jast-program"
+version = "0.1.0"
+edition = "2024"
+description = "JastProgram compiler (work in progress)"
+
+[lib]
+name = "jast_program"
+path = "src/lib.rs"
+
+[[bin]]
+name = "jastc"
+path = "src/main.rs"
+
+[dependencies]

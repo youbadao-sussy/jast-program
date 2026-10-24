@@ -1,0 +1,6 @@
+var count = 0;
+let name = "flux";
+let result: Int;
+if (count > 0) { result = 1; } else { result = 2; }
+final id = nextId();
+const MAX: Int = 100;
