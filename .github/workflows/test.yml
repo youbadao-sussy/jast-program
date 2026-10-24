@@ -1,0 +1,16 @@
+name: "[JastProgram] Test .jp File"
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    name: "Test Sample"
+    runs-on: "windows-latest"
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - name: "Test command"
+        run: cargo test
+
+      - name: "Test Sample File"
+        run: cargo run -- lex examples/ch03_variables.jp
+

@@ -4,4 +4,5 @@
 /site
 
 .extra/
-example/
+/examples
+!examples/ch03_variables.jp
