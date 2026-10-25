@@ -1,0 +1,26 @@
+// examples/ch04_types.jp
+struct Point { x: Float; y: Float; }
+
+enum Shape {
+    Circle(r: Float);
+    Rect(w: Float, h: Float);
+}
+
+class Player {
+    var hp: Int = 100;
+    final id: Int;
+
+    function new(id: Int) {
+        self.id = id;
+    }
+
+    function damage(&mut self, amount: Int) {
+        self.hp -= amount;
+    }
+
+    function isDead(&self): Bool { self.hp <= 0 }
+}
+
+var p = new Player(1);
+
+final class Boss { ... }

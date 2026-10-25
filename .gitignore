@@ -4,6 +4,6 @@
 /site
 
 .extra/
-/examples
-!examples/ch03_variables.jp
-!examples/ch04_types.jp
+/examples/helloworld
+/examples/jastlib
+/examples/Le4x Studio
