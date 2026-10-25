@@ -6,3 +6,4 @@
 .extra/
 /examples
 !examples/ch03_variables.jp
+!examples/ch04_types.jp
