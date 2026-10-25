@@ -7,6 +7,5 @@
     },
     "files.associations": {
         "*.mclint": "jsonc",
-        "*.jpproj": ".jr"
     }
 }

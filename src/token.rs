@@ -51,10 +51,11 @@ pub enum Keyword {
     SelfType,
     Move,
     Mut,
+    New,
 }
 
 impl Keyword {
-    pub const ALL: [Keyword; 37] = [
+    pub const ALL: [Keyword; 38] = [
         Keyword::Var,
         Keyword::Let,
         Keyword::Final,
@@ -92,6 +93,7 @@ impl Keyword {
         Keyword::SelfType,
         Keyword::Move,
         Keyword::Mut,
+        Keyword::New,
     ];
 
     pub fn as_str(self) -> &'static str {
@@ -133,6 +135,7 @@ impl Keyword {
             Keyword::SelfType => "Self",
             Keyword::Move => "move",
             Keyword::Mut => "mut",
+            Keyword::New => "new",
         }
     }
 

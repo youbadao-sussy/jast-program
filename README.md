@@ -20,7 +20,7 @@ jacm -main main.jp --interp
 
 #### コンパイル後に実行
 ```pwsh
-jacm main.jp -o main
+nbs main.jp -o main
 ```
 こうすると、`main`と名付けられたコンパイル済みファイルが作成されます。
 その後

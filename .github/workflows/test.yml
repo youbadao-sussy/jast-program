@@ -12,5 +12,5 @@ jobs:
         run: cargo test
 
       - name: "Test Sample File"
-        run: cargo run -- lex examples/ch03_variables.jp
+        run: cargo run -- lex examples/ch04_types.jp
 
